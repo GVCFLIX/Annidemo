@@ -24,21 +24,21 @@ html{
 }
 .home{
     height: 100vh;
+    background-color: var(--darkblue);
 }
 .header{
     position: sticky;
     top: 0;
     z-index: 1;
+    background-color: var(--darkblue);
+    padding: 10px;
 }
 #navbar{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* padding: 5px 10px; */
-    background-color: var(--darkblue);
+    padding: 10px 10px;
     border-bottom: 2px solid var(--pink);
-    border-bottom-left-radius: 50px;
-    border-bottom-right-radius: 50px;
 }
 .mk-nav-logo{
     width: 100px;
@@ -96,13 +96,10 @@ ul li a:hover{
 }
 .mk-home-row{
     background-color: var(--darkblue);
-    height: 100vh;
     color: #fff;
 }
 .mk-home-col1{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
 }
 .home-col1-pic{
     width: 500px;
@@ -137,7 +134,7 @@ ul li a:hover{
     margin-left: 30px;
 }
 /* Monthsary Section  */
-#mk-monthsary{
+#mk-monthsary , #mk-anniversary{
     height: 100vh;
 }
 
